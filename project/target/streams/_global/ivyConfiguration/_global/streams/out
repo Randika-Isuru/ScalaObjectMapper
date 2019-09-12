@@ -1,0 +1,2 @@
+[0m[[0m[33mwarn[0m] [0m[0minsecure HTTP request is deprecated 'http://nexus.pagero.local/nexus/content/groups/public/'; switch to HTTPS or opt-in as ("pagero-public" at "http://nexus.pagero.local/nexus/content/groups/public/").withAllowInsecureProtocol(true)[0m
+[0m[[0m[33mwarn[0m] [0m[0minsecure HTTP request is deprecated 'http://nexus/nexus/content/repositories/snapshots'; switch to HTTPS or opt-in as ("Pagero snapshots" at "http://nexus/nexus/content/repositories/snapshots").withAllowInsecureProtocol(true)[0m
