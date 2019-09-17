@@ -13,5 +13,5 @@ object Main extends App with CassandraCluster {
   //val intSet: java.util.Set[Int] = new java.util.HashSet[Int]()
   val intSet: Set[Int] = Set(11)
 
-  mapper.save(Document("789", "234", activity, intSet))
+  mapper.save(Document("789", UUIDs.timeBased(), "234", activity, intSet))
 }

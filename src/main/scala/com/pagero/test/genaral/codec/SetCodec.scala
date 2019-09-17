@@ -15,7 +15,6 @@
  */
 
 package com.pagero.test.genaral.codec
-import Implicits._
 import com.datastax.driver.core._
 
 class SetCodec[E](eltCodec: TypeCodec[E])
