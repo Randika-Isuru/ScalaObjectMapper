@@ -9,6 +9,8 @@ import org.cassandraunit.CQLDataLoader
 import org.cassandraunit.dataset.cql.ClassPathCQLDataSet
 import org.scalatest.{BeforeAndAfterAll, FunSuite}
 
+import scala.collection.JavaConverters._
+
 class TestDocument extends FunSuite with BeforeAndAfterAll{
 
   override def beforeAll(): Unit = {
@@ -27,9 +29,10 @@ class TestDocument extends FunSuite with BeforeAndAfterAll{
     val activity = Activity("randika", "vijayanga")
     //val partyIdBean = Set(PartyIdBean("isuru", "vijayanga"))
     //val intSet: java.util.Set[Int] = new java.util.HashSet[Int]()
-    //val intSet: Set[Int] = Set(11)
+    val intSet: scala.collection.mutable.Set[Integer] = scala.collection.mutable.Set(11)
     val amount: Int = 12
-    val document = Document("4567", UUIDs.timeBased(), "1234567", activity, amount)
+    val activitySet: Set[Activity] = Set(Activity("action1", "randika"), Activity("action2", "isuru"), Activity("action3", "vijayanga"))
+    val document = Document("4567", UUIDs.timeBased(), "1234567", activity, amount, intSet.asJava, activitySet.asJava)
     val num = new DocumentServiceImpl(new MockDocumentDao(false)).saveDocument(document)
     assert(num == 1)
   }
@@ -39,9 +42,10 @@ class TestDocument extends FunSuite with BeforeAndAfterAll{
     val activity = Activity("randika", "vijayanga")
     //val partyIdBean = Set(PartyIdBean("isuru", "vijayanga"))
     //val intSet: java.util.Set[Int] = new java.util.HashSet[Int]()
-    //val intSet: Set[Int] = Set(11)
+    val intSet: scala.collection.mutable.Set[Integer] = scala.collection.mutable.Set(11)
     val amount: Int = 12
-    val document = Document("4567", UUIDs.timeBased(), "1234567", activity, amount)
+    val activitySet: Set[Activity] = Set(Activity("action1", "randika"), Activity("action2", "isuru"), Activity("action3", "vijayanga"))
+    val document = Document("4567", UUIDs.timeBased(), "1234567", activity, amount, intSet.asJava, activitySet.asJava)
     val num = new DocumentServiceImpl(new MockDocumentDao(true)).saveDocument(document)
     assert(num == 2)
   }

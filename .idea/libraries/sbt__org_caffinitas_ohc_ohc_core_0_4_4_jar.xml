@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="sbt: org.caffinitas.ohc:ohc-core:0.4.4:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.cache/coursier/v1/http/nexus.pagero.local/nexus/content/groups/public/org/caffinitas/ohc/ohc-core/0.4.4/ohc-core-0.4.4.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.cache/coursier/v1/http/nexus.pagero.local/nexus/content/groups/public/org/caffinitas/ohc/ohc-core/0.4.4/ohc-core-0.4.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.cache/coursier/v1/http/nexus.pagero.local/nexus/content/groups/public/org/caffinitas/ohc/ohc-core/0.4.4/ohc-core-0.4.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,3 +1,4 @@
+/*
 package com.pagero.persistence
 
 import com.datastax.driver.core._
@@ -8,7 +9,7 @@ trait CassandraCluster {
     val codec: TypeCodec[Set[Int]] = SetCodec(IntCodec)
     val builder = Cluster.builder()
     builder.addContactPoints("localhost")
-    builder.withPort(9043)
+    builder.withPort(9042)
     builder.getConfiguration.getCodecRegistry.register(codec)
     builder.build()
   }
@@ -18,10 +19,9 @@ trait CassandraCluster {
   private def getSession(): Session = {
     //val intCodec = SetCodec(IntCodec)
     //val intCodec2 = OptionCodec(IntCodec)
-    val intCodecReg: TypeCodec[Int] = IntCodec
+    //val intCodecReg: TypeCodec[Int] = IntCodec
     val setIntCodecReg: TypeCodec[Set[Int]] = SetCodec(IntCodec)
-    cluster.getConfiguration().getCodecRegistry()
-      .register(intCodecReg).register(setIntCodecReg)
+    cluster.getConfiguration().getCodecRegistry().register(setIntCodecReg)
 
     if (cluster.getMetadata.getKeyspace("documents") != null) {
       cluster.connect("documents")
@@ -31,3 +31,4 @@ trait CassandraCluster {
   }
 
 }
+*/

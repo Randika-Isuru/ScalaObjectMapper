@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="sbt: org.eclipse.jdt.core.compiler:ecj:4.4.2:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.cache/coursier/v1/http/nexus.pagero.local/nexus/content/groups/public/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.cache/coursier/v1/http/nexus.pagero.local/nexus/content/groups/public/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.cache/coursier/v1/http/nexus.pagero.local/nexus/content/groups/public/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

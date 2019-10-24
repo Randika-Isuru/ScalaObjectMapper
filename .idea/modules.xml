@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalacaseclassforcqlmappers.iml" filepath="$PROJECT_DIR$/.idea/modules/scalacaseclassforcqlmappers.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalacaseclassforcqlmappers-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scalacaseclassforcqlmappers-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ScalaCaseClassForCqlMappers.iml" filepath="$PROJECT_DIR$/.idea/modules/ScalaCaseClassForCqlMappers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ScalaCaseClassForCqlMappers-build.iml" filepath="$PROJECT_DIR$/.idea/modules/ScalaCaseClassForCqlMappers-build.iml" />
     </modules>
   </component>
 </project>

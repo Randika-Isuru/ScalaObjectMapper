@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sbt: org.apache.ant:ant-launcher:1.7.0:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.cache/coursier/v1/http/nexus.pagero.local/nexus/content/groups/public/org/apache/ant/ant-launcher/1.7.0/ant-launcher-1.7.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

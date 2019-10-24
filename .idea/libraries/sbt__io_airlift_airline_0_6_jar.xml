@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="sbt: io.airlift:airline:0.6:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.cache/coursier/v1/http/nexus.pagero.local/nexus/content/groups/public/io/airlift/airline/0.6/airline-0.6.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.cache/coursier/v1/http/nexus.pagero.local/nexus/content/groups/public/io/airlift/airline/0.6/airline-0.6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.cache/coursier/v1/http/nexus.pagero.local/nexus/content/groups/public/io/airlift/airline/0.6/airline-0.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

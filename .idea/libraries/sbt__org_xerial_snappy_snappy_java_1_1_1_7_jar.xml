@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="sbt: org.xerial.snappy:snappy-java:1.1.1.7:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.cache/coursier/v1/http/nexus.pagero.local/nexus/content/groups/public/org/xerial/snappy/snappy-java/1.1.1.7/snappy-java-1.1.1.7.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.cache/coursier/v1/http/nexus.pagero.local/nexus/content/groups/public/org/xerial/snappy/snappy-java/1.1.1.7/snappy-java-1.1.1.7-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.cache/coursier/v1/http/nexus.pagero.local/nexus/content/groups/public/org/xerial/snappy/snappy-java/1.1.1.7/snappy-java-1.1.1.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

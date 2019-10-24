@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="sbt: com.github.ben-manes.caffeine:caffeine:2.2.6:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.cache/coursier/v1/http/nexus.pagero.local/nexus/content/groups/public/com/github/ben-manes/caffeine/caffeine/2.2.6/caffeine-2.2.6.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.cache/coursier/v1/http/nexus.pagero.local/nexus/content/groups/public/com/github/ben-manes/caffeine/caffeine/2.2.6/caffeine-2.2.6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.cache/coursier/v1/http/nexus.pagero.local/nexus/content/groups/public/com/github/ben-manes/caffeine/caffeine/2.2.6/caffeine-2.2.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

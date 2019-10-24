@@ -1,11 +1,13 @@
 <component name="libraryTable">
   <library name="sbt: org.ow2.asm:asm-analysis:5.0.3:jar">
     <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.jar!/" />
+      <root url="jar://$USER_HOME$/.cache/coursier/v1/http/nexus.pagero.local/nexus/content/groups/public/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.cache/coursier/v1/http/nexus.pagero.local/nexus/content/groups/public/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.cache/coursier/v1/http/nexus.pagero.local/nexus/content/groups/public/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="sbt: com.googlecode.concurrent-trees:concurrent-trees:2.4.0:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.cache/coursier/v1/http/nexus.pagero.local/nexus/content/groups/public/com/googlecode/concurrent-trees/concurrent-trees/2.4.0/concurrent-trees-2.4.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.cache/coursier/v1/http/nexus.pagero.local/nexus/content/groups/public/com/googlecode/concurrent-trees/concurrent-trees/2.4.0/concurrent-trees-2.4.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.cache/coursier/v1/http/nexus.pagero.local/nexus/content/groups/public/com/googlecode/concurrent-trees/concurrent-trees/2.4.0/concurrent-trees-2.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
